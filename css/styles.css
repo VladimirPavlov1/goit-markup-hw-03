@@ -21,23 +21,21 @@
 
 /* font-family: 'Raleway', sans-serif; 
 font-family: 'Roboto', sans-serif; */
-html{
-    box-sizing: border-box;
-}
-*,
-*::before,
-*::after{
-    box-sizing: inherit;
-}
+
 body{
     font-size: 14px;
     font-family:'Roboto', sans-serif; 
     font-weight:400;
     color: var(--paragraph-text-color);
     background-color: #ffffff;
+    width: 1400px;
 }
 body ul{
     list-style-type: none;    ;
+}
+img{
+    width: 100%;
+    height: auto;
 }
 /* h1{
     
@@ -54,11 +52,21 @@ body ul{
      
      /* колір для Н1 і кнопок color:FFFFFF; */
 
+.container{
+    width: 1230px;
+    padding:0 15px;
+    margin: 0 auto;
+}
 .section{
-    display: outline;
+    outline: 2px solid red;
+   
+   
 }     
  .list{
      list-style: none;
+     padding: 0;
+     margin: 0;
+
  }
  /* UP */
 
@@ -116,7 +124,7 @@ body ul{
  }
  /* hero section */
 .hero{
-  
+    text-align: center; 
     background-color: var(--hero-section-color); 
 }
 .hero-title{
@@ -126,8 +134,9 @@ body ul{
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: .06em;
-    text-align: center;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .hero-button{
@@ -137,9 +146,14 @@ body ul{
     font-weight:700;
     font-size: 16px;
     line-height: 1.87;
-    border: none;
+    border: 1px solid transparent;
     text-align: center;
     letter-spacing: .06em;
+    min-width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    margin: 0 auto 294px;
+    padding: 10px 32px;
    
 }
 
@@ -151,11 +165,19 @@ body ul{
    font-size: 36px;
    line-height: 1.17;
    letter-spacing: .03em;
+   margin: 0 auto 50px;
+   text-align: center;
 }
 
-
+.work-area {
+    margin-bottom: 94px;
+}
 
 /* features */
+.features-section{
+    margin-bottom: 94px;
+
+}
 .features .title{
  color: var( --title-text-color);
 }
@@ -167,12 +189,23 @@ body ul{
     line-height:1.14;
     letter-spacing: .03em;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
-.features .text{
+.item .text{
  
     line-height: 1.71;
     letter-spacing: .03em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 10px;
+   
 } 
+.team-section{
+    padding: 94px 0;
+}
+
 .team .title{
     color: var(--title-text-color);
     font-family: 'Roboto', sans-serif;
@@ -262,11 +295,14 @@ body ul{
      line-height: 2;
      letter-spacing: .06em;
      text-transform: none;
+     
  }
  .work-list p{
      font-size: 16px;
      line-height: 1.88;
      letter-spacing: .03em;
+     margin-top: 0;
+     margin-bottom: 0;
  }
     
     
