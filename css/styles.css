@@ -175,6 +175,8 @@ img{
     line-height: 1.36;
     letter-spacing: .06em;
     text-transform: uppercase;
+    
+    padding-top: 104px;
     margin-top: 0;
     margin-bottom: 30px;
 }
