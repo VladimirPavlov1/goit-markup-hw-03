@@ -297,6 +297,7 @@ img{
 .button-nav .item{
     display: block;
     margin-right: 30px;
+    margin-bottom: 50px;
     /* outline: 1px solid black; */
 }
 .button-nav .item:last-child{
@@ -309,6 +310,7 @@ img{
     color:var( --title-text-color);
     background-color: var(--button-secondary-color);
     border-style: none;
+    border-radius: 4px;
     font-family:'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
